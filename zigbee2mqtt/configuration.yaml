@@ -1,0 +1,14 @@
+homeassistant: true
+mqtt:
+  server: mqtt://localhost:1883
+serial:
+  port: tcp://core-silabs-multiprotocol:9999
+  adapter: ezsp
+frontend:
+  port: 8099
+advanced:
+  homeassistant_legacy_entity_attributes: false
+  legacy_api: false
+  legacy_availability_payload: false
+device_options:
+  legacy: false

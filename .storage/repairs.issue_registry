@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "minor_version": 2,
+  "key": "repairs.issue_registry",
+  "data": {
+    "issues": [
+      {
+        "created": "2023-06-02T16:54:48.101313+00:00",
+        "dismissed_version": "2023.6.0b1",
+        "domain": "otbr",
+        "is_persistent": false,
+        "issue_id": "otbr_zha_channel_collision_a13135badabdb01bc9a9cdb0c65875fa"
+      }
+    ]
+  }
+}

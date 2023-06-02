@@ -1,0 +1,5401 @@
+{
+  "version": 1,
+  "minor_version": 10,
+  "key": "core.entity_registry",
+  "data": {
+    "entities": [
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "0b5dae4aed1996f70eeef21a9eef48c7",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.home_assistant_supervisor_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "70e589d4fb0e491306ee3b8695f0586d",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Update",
+        "platform": "hassio",
+        "supported_features": 1,
+        "translation_key": null,
+        "unique_id": "home_assistant_supervisor_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "23f7e3d0b7e3d77155e314d7dcbdfb06",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.home_assistant_core_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6f465ab4c8eab2d6627865e69f6090ef",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Update",
+        "platform": "hassio",
+        "supported_features": 11,
+        "translation_key": null,
+        "unique_id": "home_assistant_core_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "ed6aaa8c35b50e90b1939b8e4f2a39c3",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.home_assistant_operating_system_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "4085cd604c73c1d87449a274abdf5059",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Update",
+        "platform": "hassio",
+        "supported_features": 3,
+        "translation_key": null,
+        "unique_id": "home_assistant_os_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "23f7e3d0b7e3d77155e314d7dcbdfb06",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.home_assistant_core_cpu_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "429c0ddcce179c1eb2ba2c8da566a3e8",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cpu-64-bit",
+        "original_name": "CPU percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "cpu_percent",
+        "unique_id": "home_assistant_core_cpu_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "23f7e3d0b7e3d77155e314d7dcbdfb06",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.home_assistant_core_memory_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "8993da8b349b35e2374297bd99d80606",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:memory",
+        "original_name": "Memory percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "memory_percent",
+        "unique_id": "home_assistant_core_memory_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "0b5dae4aed1996f70eeef21a9eef48c7",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.home_assistant_supervisor_cpu_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7539df168f9f48a2401119198fe97c62",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cpu-64-bit",
+        "original_name": "CPU percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "cpu_percent",
+        "unique_id": "home_assistant_supervisor_cpu_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "0b5dae4aed1996f70eeef21a9eef48c7",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.home_assistant_supervisor_memory_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "e1aa007c19cd17c0a869d68069ef455e",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:memory",
+        "original_name": "Memory percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "memory_percent",
+        "unique_id": "home_assistant_supervisor_memory_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "ecd798d62ddde2b9726664456fca4d76",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.home_assistant_host_os_agent_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "dfe4cdb9702ffb7593aeb20a49a625a7",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "OS Agent version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "agent_version",
+        "unique_id": "home_assistant_host_agent_version",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "ecd798d62ddde2b9726664456fca4d76",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.home_assistant_host_apparmor_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "4b34401ccffbfdebebd45c6214966663",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Apparmor version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "apparmor_version",
+        "unique_id": "home_assistant_host_apparmor_version",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "ecd798d62ddde2b9726664456fca4d76",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.home_assistant_host_disk_total",
+        "hidden_by": null,
+        "icon": null,
+        "id": "764134ac4b5b982e43a6a49338100b5e",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "data_size",
+        "original_icon": null,
+        "original_name": "Disk total",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "disk_total",
+        "unique_id": "home_assistant_host_disk_total",
+        "unit_of_measurement": "GB"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "ecd798d62ddde2b9726664456fca4d76",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.home_assistant_host_disk_used",
+        "hidden_by": null,
+        "icon": null,
+        "id": "719b12ffaf74d8907eaa7886f3c83ffe",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "data_size",
+        "original_icon": null,
+        "original_name": "Disk used",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "disk_used",
+        "unique_id": "home_assistant_host_disk_used",
+        "unit_of_measurement": "GB"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "ecd798d62ddde2b9726664456fca4d76",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.home_assistant_host_disk_free",
+        "hidden_by": null,
+        "icon": null,
+        "id": "22c7672c3351ebd8281d619cb799aed4",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "data_size",
+        "original_icon": null,
+        "original_name": "Disk free",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "disk_free",
+        "unique_id": "home_assistant_host_disk_free",
+        "unit_of_measurement": "GB"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "ed6aaa8c35b50e90b1939b8e4f2a39c3",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.home_assistant_operating_system_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "bcda87375d774e130607c2d3f420fb05",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version",
+        "unique_id": "home_assistant_os_version",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "ed6aaa8c35b50e90b1939b8e4f2a39c3",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.home_assistant_operating_system_newest_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a9e126ba686b2663d230a949acdd3fd2",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Newest version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version_latest",
+        "unique_id": "home_assistant_os_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "935fbd1012ece9c666e03b8613af7dcd",
+        "device_class": null,
+        "device_id": "7dad5ce27686208801e633887b94b84f",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_dawn",
+        "hidden_by": null,
+        "icon": null,
+        "id": "cfdbb948686485645b92d4322d8fafa6",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next dawn",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_dawn",
+        "unique_id": "935fbd1012ece9c666e03b8613af7dcd-next_dawn",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "935fbd1012ece9c666e03b8613af7dcd",
+        "device_class": null,
+        "device_id": "7dad5ce27686208801e633887b94b84f",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_dusk",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2e639d8c90dbe1d7d8e1a29b71a730fa",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next dusk",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_dusk",
+        "unique_id": "935fbd1012ece9c666e03b8613af7dcd-next_dusk",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "935fbd1012ece9c666e03b8613af7dcd",
+        "device_class": null,
+        "device_id": "7dad5ce27686208801e633887b94b84f",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_midnight",
+        "hidden_by": null,
+        "icon": null,
+        "id": "820949b8d1def8271bd672dcae3d7d97",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next midnight",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_midnight",
+        "unique_id": "935fbd1012ece9c666e03b8613af7dcd-next_midnight",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "935fbd1012ece9c666e03b8613af7dcd",
+        "device_class": null,
+        "device_id": "7dad5ce27686208801e633887b94b84f",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_noon",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5c44fc314cd99c30767559166f2245f0",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next noon",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_noon",
+        "unique_id": "935fbd1012ece9c666e03b8613af7dcd-next_noon",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "935fbd1012ece9c666e03b8613af7dcd",
+        "device_class": null,
+        "device_id": "7dad5ce27686208801e633887b94b84f",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_rising",
+        "hidden_by": null,
+        "icon": null,
+        "id": "42566c49994e3a57a90cefe5f615a5d1",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next rising",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_rising",
+        "unique_id": "935fbd1012ece9c666e03b8613af7dcd-next_rising",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "935fbd1012ece9c666e03b8613af7dcd",
+        "device_class": null,
+        "device_id": "7dad5ce27686208801e633887b94b84f",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_setting",
+        "hidden_by": null,
+        "icon": null,
+        "id": "24e30a95e0c0a8cdde9e34364bc3cf7f",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next setting",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_setting",
+        "unique_id": "935fbd1012ece9c666e03b8613af7dcd-next_setting",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "935fbd1012ece9c666e03b8613af7dcd",
+        "device_class": null,
+        "device_id": "7dad5ce27686208801e633887b94b84f",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_elevation",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d301ec5fc41e6668afcaf192d5d13f88",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:theme-light-dark",
+        "original_name": "Solar elevation",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_elevation",
+        "unique_id": "935fbd1012ece9c666e03b8613af7dcd-solar_elevation",
+        "unit_of_measurement": "°"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "935fbd1012ece9c666e03b8613af7dcd",
+        "device_class": null,
+        "device_id": "7dad5ce27686208801e633887b94b84f",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_azimuth",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1df54f556f444dd8eddc07a53502df5f",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:sun-angle",
+        "original_name": "Solar azimuth",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_azimuth",
+        "unique_id": "935fbd1012ece9c666e03b8613af7dcd-solar_azimuth",
+        "unit_of_measurement": "°"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "20622852e45c779c9504c2522942d9f8",
+        "device_class": null,
+        "device_id": "2a57602eb9b959d0b9ac7a7b4ae3e58a",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.bedroom_display",
+        "hidden_by": null,
+        "icon": null,
+        "id": "800827cb2bb75af38cf759ee6f9791d5",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": null,
+        "platform": "cast",
+        "supported_features": 131968,
+        "translation_key": null,
+        "unique_id": "3dd598ea-a708-999d-ebc6-45f7635e5ecd",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": null,
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "person.sam",
+        "hidden_by": null,
+        "icon": null,
+        "id": "694b11959d416018540c81045636c77e",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "sam",
+        "platform": "person",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "sam",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "7b413ac4c154b63bc22ff998132b0404",
+        "device_class": null,
+        "device_id": "5eb7c35fe7d1110f11a8ed7e2b54b1aa",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "weather.forecast_home",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2c66b06830714103b1aad56ee81de6ae",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Home",
+        "platform": "met",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "home",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "7b413ac4c154b63bc22ff998132b0404",
+        "device_class": null,
+        "device_id": "5eb7c35fe7d1110f11a8ed7e2b54b1aa",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "weather.forecast_home_hourly",
+        "hidden_by": null,
+        "icon": null,
+        "id": "65c4bf2b8dcd0f9a62553ec2fe59786a",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Home hourly",
+        "platform": "met",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "home-hourly",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "d1280f5a54486831c119d87ce24b43d0",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.matter_server_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2c4145d4d995519418fe9d8e4abc761b",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version",
+        "unique_id": "core_matter_server_version",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "d1280f5a54486831c119d87ce24b43d0",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.matter_server_newest_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c294bf6bf5946aaa90aa5e3d1900e2d5",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Newest version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version_latest",
+        "unique_id": "core_matter_server_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "d1280f5a54486831c119d87ce24b43d0",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.matter_server_cpu_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "52b3152f94348d8ba24347a9eda58b4e",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cpu-64-bit",
+        "original_name": "CPU percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "cpu_percent",
+        "unique_id": "core_matter_server_cpu_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "d1280f5a54486831c119d87ce24b43d0",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.matter_server_memory_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "98f702b83013a6b59834e4d5cf7cb99f",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:memory",
+        "original_name": "Memory percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "memory_percent",
+        "unique_id": "core_matter_server_memory_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "d1280f5a54486831c119d87ce24b43d0",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "binary_sensor.matter_server_running",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6d243c6c0e8adff40ddb71c137c266f8",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "running",
+        "original_icon": null,
+        "original_name": "Running",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "state",
+        "unique_id": "core_matter_server_state",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "d1280f5a54486831c119d87ce24b43d0",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.matter_server_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "8589808f81b1f0b55694cd0988178f04",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Update",
+        "platform": "hassio",
+        "supported_features": 25,
+        "translation_key": null,
+        "unique_id": "core_matter_server_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "291cf23794f73b6f08dd68adf804405d",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "binary_sensor.silicon_labs_multiprotocol_running",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1cc70150276a20a73e257e8e88d0c8a9",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "running",
+        "original_icon": null,
+        "original_name": "Running",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "state",
+        "unique_id": "core_silabs_multiprotocol_state",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "291cf23794f73b6f08dd68adf804405d",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.silicon_labs_multiprotocol_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ee9b90435889d07bc6d90444417dc11e",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version",
+        "unique_id": "core_silabs_multiprotocol_version",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "291cf23794f73b6f08dd68adf804405d",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.silicon_labs_multiprotocol_newest_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "84eb847c69d3084d740372ef7019bb16",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Newest version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version_latest",
+        "unique_id": "core_silabs_multiprotocol_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "291cf23794f73b6f08dd68adf804405d",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.silicon_labs_multiprotocol_cpu_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "747551ca887df9fa6887e4455bd6eab1",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cpu-64-bit",
+        "original_name": "CPU percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "cpu_percent",
+        "unique_id": "core_silabs_multiprotocol_cpu_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "291cf23794f73b6f08dd68adf804405d",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.silicon_labs_multiprotocol_memory_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "57513bd8030516e06b3e33f148fd9b0a",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:memory",
+        "original_name": "Memory percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "memory_percent",
+        "unique_id": "core_silabs_multiprotocol_memory_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "291cf23794f73b6f08dd68adf804405d",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.silicon_labs_multiprotocol_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "04f57f1429e214734e1318492361002f",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Update",
+        "platform": "hassio",
+        "supported_features": 25,
+        "translation_key": null,
+        "unique_id": "core_silabs_multiprotocol_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "5a42fd6fedd8e2a0a2229c7ea862f97b",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "binary_sensor.openthread_border_router_running",
+        "hidden_by": null,
+        "icon": null,
+        "id": "36ce30e9165f93411b351d838760ebe5",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "running",
+        "original_icon": null,
+        "original_name": "Running",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "state",
+        "unique_id": "core_openthread_border_router_state",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "5a42fd6fedd8e2a0a2229c7ea862f97b",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.openthread_border_router_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0cc48ecad5b998403b8c30a5f8dd6a16",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version",
+        "unique_id": "core_openthread_border_router_version",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "5a42fd6fedd8e2a0a2229c7ea862f97b",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.openthread_border_router_newest_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "996d5c2f3cb13c9e38374c9b3170cfc3",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Newest version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version_latest",
+        "unique_id": "core_openthread_border_router_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "5a42fd6fedd8e2a0a2229c7ea862f97b",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.openthread_border_router_cpu_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "090a980ecbe2cd29f170f906748fc60b",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cpu-64-bit",
+        "original_name": "CPU percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "cpu_percent",
+        "unique_id": "core_openthread_border_router_cpu_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "5a42fd6fedd8e2a0a2229c7ea862f97b",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.openthread_border_router_memory_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "799f716ea207d3363513286f0cba66c3",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:memory",
+        "original_name": "Memory percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "memory_percent",
+        "unique_id": "core_openthread_border_router_memory_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "5a42fd6fedd8e2a0a2229c7ea862f97b",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.openthread_border_router_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "fa6cc92efa1be8346fd9fbfd4a1f977b",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Update",
+        "platform": "hassio",
+        "supported_features": 25,
+        "translation_key": null,
+        "unique_id": "core_openthread_border_router_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "46c50d594c0ee3b29afacbb970c5a2c8",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "binary_sensor.mosquitto_broker_running",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ee1b6470496beaafc45dfdc5fd7ee14b",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "running",
+        "original_icon": null,
+        "original_name": "Running",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "state",
+        "unique_id": "core_mosquitto_state",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "46c50d594c0ee3b29afacbb970c5a2c8",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.mosquitto_broker_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a015a5cde5021e4c2e34727365e8b318",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version",
+        "unique_id": "core_mosquitto_version",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "46c50d594c0ee3b29afacbb970c5a2c8",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.mosquitto_broker_newest_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2bdaad4d7aa76e7f0a5f28af8ee6b7a8",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Newest version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version_latest",
+        "unique_id": "core_mosquitto_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "46c50d594c0ee3b29afacbb970c5a2c8",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.mosquitto_broker_cpu_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ff2b1758ba5716dfbcbe339349459a21",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cpu-64-bit",
+        "original_name": "CPU percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "cpu_percent",
+        "unique_id": "core_mosquitto_cpu_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "46c50d594c0ee3b29afacbb970c5a2c8",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.mosquitto_broker_memory_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c4352922e68b32f76be8aaf85e0da2db",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:memory",
+        "original_name": "Memory percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "memory_percent",
+        "unique_id": "core_mosquitto_memory_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "46c50d594c0ee3b29afacbb970c5a2c8",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.mosquitto_broker_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a2dec16d1bbff6638805156bf85da36e",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Update",
+        "platform": "hassio",
+        "supported_features": 25,
+        "translation_key": null,
+        "unique_id": "core_mosquitto_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "574dd520556c03af71852dbcd24a1fa1",
+        "device_class": null,
+        "device_id": "3dccab78a376c3e8a7c361033546b76c",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.tz3000_qaaysllp_ts0201_battery",
+        "hidden_by": null,
+        "icon": null,
+        "id": "35d281d8d06a825bbd890188fee35329",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "battery",
+        "original_icon": null,
+        "original_name": "Battery",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "b4:e3:f9:ff:fe:0c:4d:da-1-1",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "574dd520556c03af71852dbcd24a1fa1",
+        "device_class": null,
+        "device_id": "3dccab78a376c3e8a7c361033546b76c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.tz3000_qaaysllp_ts0201_illuminance",
+        "hidden_by": null,
+        "icon": null,
+        "id": "3cce00285cf699cfbf98c20f9d847a0a",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          },
+          "sensor": {
+            "display_precision": null
+          }
+        },
+        "original_device_class": "illuminance",
+        "original_icon": null,
+        "original_name": "Illuminance",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "b4:e3:f9:ff:fe:0c:4d:da-1-1024",
+        "unit_of_measurement": "lx"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "574dd520556c03af71852dbcd24a1fa1",
+        "device_class": null,
+        "device_id": "3dccab78a376c3e8a7c361033546b76c",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.tz3000_qaaysllp_ts0201_rssi",
+        "hidden_by": null,
+        "icon": null,
+        "id": "721032b1fb4dbbcb8ca01337350d6008",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "RSSI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "b4:e3:f9:ff:fe:0c:4d:da-1-0-rssi",
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "574dd520556c03af71852dbcd24a1fa1",
+        "device_class": null,
+        "device_id": "3dccab78a376c3e8a7c361033546b76c",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.tz3000_qaaysllp_ts0201_lqi",
+        "hidden_by": null,
+        "icon": null,
+        "id": "26aee7a5f25efa36cabe077dfe1afacf",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "LQI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "b4:e3:f9:ff:fe:0c:4d:da-1-0-lqi",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "574dd520556c03af71852dbcd24a1fa1",
+        "device_class": null,
+        "device_id": "3dccab78a376c3e8a7c361033546b76c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.tz3000_qaaysllp_ts0201_temperature",
+        "hidden_by": null,
+        "icon": null,
+        "id": "bad26aa92df724badffa91a98f67222a",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": "temperature",
+        "original_icon": null,
+        "original_name": "Temperature",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "b4:e3:f9:ff:fe:0c:4d:da-2-1026",
+        "unit_of_measurement": "°C"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "574dd520556c03af71852dbcd24a1fa1",
+        "device_class": null,
+        "device_id": "3dccab78a376c3e8a7c361033546b76c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.tz3000_qaaysllp_ts0201_humidity",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5a5b59ccd56a0e4890501fcf553f8984",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": "humidity",
+        "original_icon": null,
+        "original_name": "Humidity",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "b4:e3:f9:ff:fe:0c:4d:da-2-1029",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "574dd520556c03af71852dbcd24a1fa1",
+        "device_class": null,
+        "device_id": "6d5e835302d906994783c3bfb62af173",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "button.signify_netherlands_b_v_ltv002_identify",
+        "hidden_by": null,
+        "icon": null,
+        "id": "4f74b01cfe02752c0cdd32ec151b4b81",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "update",
+        "original_icon": null,
+        "original_name": "Identify",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:17:88:01:0b:f9:c0:69-11-3",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "min_color_temp_kelvin": 2202,
+          "max_color_temp_kelvin": 4504,
+          "min_mireds": 222,
+          "max_mireds": 454,
+          "supported_color_modes": [
+            "color_temp"
+          ]
+        },
+        "config_entry_id": "574dd520556c03af71852dbcd24a1fa1",
+        "device_class": null,
+        "device_id": "6d5e835302d906994783c3bfb62af173",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "light.signify_netherlands_b_v_ltv002_light",
+        "hidden_by": null,
+        "icon": null,
+        "id": "f9b85f547703463ab44a0f8d54a2e0e0",
+        "has_entity_name": true,
+        "name": "Lamp",
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Light",
+        "platform": "zha",
+        "supported_features": 40,
+        "translation_key": null,
+        "unique_id": "00:17:88:01:0b:f9:c0:69-11",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "min": 0,
+          "max": 255,
+          "step": 1.0,
+          "mode": "auto"
+        },
+        "config_entry_id": "574dd520556c03af71852dbcd24a1fa1",
+        "device_class": null,
+        "device_id": "6d5e835302d906994783c3bfb62af173",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "number.signify_netherlands_b_v_ltv002_start_up_current_level",
+        "hidden_by": null,
+        "icon": null,
+        "id": "8d5ec1b60fd13d38e4896d75f0dcb798",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Start-up current level",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:17:88:01:0b:f9:c0:69-11-8-start_up_current_level",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "min": 222,
+          "max": 454,
+          "step": 1.0,
+          "mode": "auto"
+        },
+        "config_entry_id": "574dd520556c03af71852dbcd24a1fa1",
+        "device_class": null,
+        "device_id": "6d5e835302d906994783c3bfb62af173",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "number.signify_netherlands_b_v_ltv002_start_up_color_temperature",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5432de3fe93023a471d1eb2546d6b507",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Start-up color temperature",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:17:88:01:0b:f9:c0:69-11-768-start_up_color_temperature",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "options": [
+            "Off",
+            "On",
+            "Toggle",
+            "PreviousValue"
+          ]
+        },
+        "config_entry_id": "574dd520556c03af71852dbcd24a1fa1",
+        "device_class": null,
+        "device_id": "6d5e835302d906994783c3bfb62af173",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "select.signify_netherlands_b_v_ltv002_start_up_behavior",
+        "hidden_by": null,
+        "icon": null,
+        "id": "8ad9310de376c83cbf37e92bbfe16603",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Start-up behavior",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:17:88:01:0b:f9:c0:69-11-6-StartUpOnOff",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "574dd520556c03af71852dbcd24a1fa1",
+        "device_class": null,
+        "device_id": "6d5e835302d906994783c3bfb62af173",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.signify_netherlands_b_v_ltv002_rssi",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5b90dbf4e2d3e4495e828bb0d52ae014",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "RSSI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:17:88:01:0b:f9:c0:69-11-0-rssi",
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "574dd520556c03af71852dbcd24a1fa1",
+        "device_class": null,
+        "device_id": "6d5e835302d906994783c3bfb62af173",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.signify_netherlands_b_v_ltv002_lqi",
+        "hidden_by": null,
+        "icon": null,
+        "id": "901660e8f3620011ca131d7738d1d9a9",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "LQI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:17:88:01:0b:f9:c0:69-11-0-lqi",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "device_tracker.pixel_6",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c2495d0e0ddbf974e17c515c748daabf",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Pixel 6",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "8278ac4e0b989436",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_detected_activity",
+        "hidden_by": null,
+        "icon": null,
+        "id": "8ebd28ded84f473050504d4b5666c30e",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:walk",
+        "original_name": "Pixel 6 Detected Activity",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_detected_activity",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_sleep_confidence",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b9744fff2766086350b874ee473c8b00",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:sleep",
+        "original_name": "Pixel 6 Sleep Confidence",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_sleep_confidence",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_sleep_segment",
+        "hidden_by": null,
+        "icon": null,
+        "id": "177c410771806a26d6df96a5abecdb64",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:sleep",
+        "original_name": "Pixel 6 Sleep Segment",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_sleep_segment",
+        "unit_of_measurement": "ms"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "binary_sensor.pixel_6_android_auto",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b8271a6bb430dc821bb347856a6c6f84",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:car",
+        "original_name": "Pixel 6 Android Auto",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_android_auto",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_os_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "da1139d0415492c65f0ebe1322a55681",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:android",
+        "original_name": "Pixel 6 OS Version",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_android_os_version",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_security_patch",
+        "hidden_by": null,
+        "icon": null,
+        "id": "131309438fb62194b60abfe27dbcbfb8",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:security",
+        "original_name": "Pixel 6 Security Patch",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_android_os_security_patch",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_current_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "26279ba83170777eb8b902d0a4bfb15a",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:android",
+        "original_name": "Pixel 6 Current Version",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_current_version",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_app_rx_gb",
+        "hidden_by": null,
+        "icon": null,
+        "id": "3a614d6f3eae70c74f149c593d96531a",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:radio-tower",
+        "original_name": "Pixel 6 App Rx GB",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_app_rx_gb",
+        "unit_of_measurement": "GB"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_app_tx_gb",
+        "hidden_by": null,
+        "icon": null,
+        "id": "25a5971b5f06e7c50549c3763a414d87",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:radio-tower",
+        "original_name": "Pixel 6 App Tx GB",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_app_tx_gb",
+        "unit_of_measurement": "GB"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_app_memory",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5017ae46e7f13eb1bdbde2cd25d122ae",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:memory",
+        "original_name": "Pixel 6 App Memory",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_app_memory",
+        "unit_of_measurement": "GB"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.pixel_6_app_inactive",
+        "hidden_by": null,
+        "icon": null,
+        "id": "bf7e6ff78b9dbe9815524c19f019b161",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:timer-outline",
+        "original_name": "Pixel 6 App Inactive",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_app_inactive",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_app_standby_bucket",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5b22ecda7af21479e13648c3ac2e2e58",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:android",
+        "original_name": "Pixel 6 App Standby Bucket",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_app_standby_bucket",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_app_importance",
+        "hidden_by": null,
+        "icon": null,
+        "id": "cdf9cb8f3121e4bdfae70265edaf859f",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:android",
+        "original_name": "Pixel 6 App Importance",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_app_importance",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_ringer_mode",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b0bdf59fff11fd8382605c45a77d93e3",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:volume-high",
+        "original_name": "Pixel 6 Ringer Mode",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_audio_sensor",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_audio_mode",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c1df7ae77c111ec59fafcae700f0c881",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:volume-high",
+        "original_name": "Pixel 6 Audio Mode",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_audio_mode",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "binary_sensor.pixel_6_headphones",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7baed76033f8a52387912b6c181609af",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:headphones",
+        "original_name": "Pixel 6 Headphones",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_headphone_state",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "binary_sensor.pixel_6_mic_muted",
+        "hidden_by": null,
+        "icon": null,
+        "id": "8e44a981a8019e81290a7c87b224da5b",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:microphone-off",
+        "original_name": "Pixel 6 Mic Muted",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_mic_muted",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "binary_sensor.pixel_6_speakerphone",
+        "hidden_by": null,
+        "icon": null,
+        "id": "9b3c77a874f9a0ddc1c69ef8be1d4504",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:volume-high",
+        "original_name": "Pixel 6 Speakerphone",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_speakerphone_state",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "binary_sensor.pixel_6_music_active",
+        "hidden_by": null,
+        "icon": null,
+        "id": "62598092aff6bf710ed269b614ab6bd7",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:music",
+        "original_name": "Pixel 6 Music Active",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_music_active",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_volume_level_alarm",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7d8638d4e425f7f00fa6cfd7a8e3bf22",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:alarm",
+        "original_name": "Pixel 6 Volume Level Alarm",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_volume_alarm",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_volume_level_call",
+        "hidden_by": null,
+        "icon": null,
+        "id": "3aa0eae0b34274d8b538cc1b5b21a70a",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:phone",
+        "original_name": "Pixel 6 Volume Level Call",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_volume_call",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_volume_level_music",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d5beb8e4d7e4a4c204904953b4689946",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:music",
+        "original_name": "Pixel 6 Volume Level Music",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_volume_music",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_volume_level_ringer",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c9180fd2841b1d1cad9635337a459066",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:phone-ring",
+        "original_name": "Pixel 6 Volume Level Ringer",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_volume_ring",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_volume_level_notification",
+        "hidden_by": null,
+        "icon": null,
+        "id": "f6dda1e0667dd971641d2dedc5966241",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:bell-ring",
+        "original_name": "Pixel 6 Volume Level Notification",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_volume_notification",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_volume_level_system",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d6279c2c36b1e4ddde57b58d38828919",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cellphone-sound",
+        "original_name": "Pixel 6 Volume Level System",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_volume_system",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_volume_level_dtmf",
+        "hidden_by": null,
+        "icon": null,
+        "id": "82fe61236062852a45dc2210b6998ee3",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:volume-high",
+        "original_name": "Pixel 6 Volume Level DTMF",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_volume_dtmf",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_volume_level_accessibility",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ae585fb68c014185982c1c22c809b0a6",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:human",
+        "original_name": "Pixel 6 Volume Level Accessibility",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_volume_accessibility",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": "battery",
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_battery_level",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c3c65d397062106522b3a203e361efe3",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "battery",
+        "original_icon": "mdi:battery-charging",
+        "original_name": "Pixel 6 Battery Level",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_battery_level",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_battery_state",
+        "hidden_by": null,
+        "icon": null,
+        "id": "4140552deb51e334b49ee922b096f49b",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:battery-plus",
+        "original_name": "Pixel 6 Battery State",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_battery_state",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": "plug",
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.pixel_6_is_charging",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2a22dc06f1d737e2efeeadc5b90271f0",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "plug",
+        "original_icon": "mdi:power-plug",
+        "original_name": "Pixel 6 Is Charging",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_is_charging",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_charger_type",
+        "hidden_by": null,
+        "icon": null,
+        "id": "21b196a62c668e6ced485ffa6070069e",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:power-plug",
+        "original_name": "Pixel 6 Charger Type",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_charger_type",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_battery_health",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2491d67dc9e0699c8da81f95919cf4ee",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:battery-heart-variant",
+        "original_name": "Pixel 6 Battery Health",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_battery_health",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": "temperature",
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_battery_temperature",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0650bcbab94ba4ef77aaea3afe85945a",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "temperature",
+        "original_icon": "mdi:battery",
+        "original_name": "Pixel 6 Battery Temperature",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_battery_temperature",
+        "unit_of_measurement": "°C"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": "power",
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_battery_power",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d4085cdc6821dc54de50c5653f6022a3",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "power",
+        "original_icon": "mdi:battery-plus",
+        "original_name": "Pixel 6 Battery Power",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_battery_power",
+        "unit_of_measurement": "W"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_bluetooth_connection",
+        "hidden_by": null,
+        "icon": null,
+        "id": "e26710736d4d0e28cfa6dd58ef8c2ec0",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:bluetooth",
+        "original_name": "Pixel 6 Bluetooth Connection",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_bluetooth_connection",
+        "unit_of_measurement": "connection(s)"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.pixel_6_bluetooth_state",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2b69891a1b79f055a1a3182fa328bf86",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:bluetooth",
+        "original_name": "Pixel 6 Bluetooth State",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_bluetooth_state",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_ble_transmitter",
+        "hidden_by": null,
+        "icon": null,
+        "id": "86316ccd7d4e52af8392184dedc4c418",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:bluetooth",
+        "original_name": "Pixel 6 BLE Transmitter",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_ble_emitter",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_beacon_monitor",
+        "hidden_by": null,
+        "icon": null,
+        "id": "f180a8810422488d44ecfe9e59e330fa",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:bluetooth",
+        "original_name": "Pixel 6 Beacon Monitor",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_beacon_monitor",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_screen_brightness",
+        "hidden_by": null,
+        "icon": null,
+        "id": "eb3fab2ba731b806b6559a39cfbae3f5",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:brightness-6",
+        "original_name": "Pixel 6 Screen Brightness",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_screen_brightness",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_screen_off_timeout",
+        "hidden_by": null,
+        "icon": null,
+        "id": "e76eeedf70ae82cd653fe2ac868532f0",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cellphone-off",
+        "original_name": "Pixel 6 Screen Off Timeout",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_screen_off_timeout",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_do_not_disturb_sensor",
+        "hidden_by": null,
+        "icon": null,
+        "id": "9a302222718a964fce5a9a2c1fc0e603",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:minus-circle",
+        "original_name": "Pixel 6 Do Not Disturb Sensor",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_dnd_sensor",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_accent_color",
+        "hidden_by": null,
+        "icon": null,
+        "id": "838cd2937da897272b0612691d3cd37e",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:palette",
+        "original_name": "Pixel 6 Accent Color",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_accent_color",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "binary_sensor.pixel_6_work_profile",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5243854be163c59d352136c985ce21c5",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:briefcase",
+        "original_name": "Pixel 6 Work Profile",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_is_work_profile",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_geocoded_location",
+        "hidden_by": null,
+        "icon": null,
+        "id": "110e38c560386275f8a9e69ea26be9d5",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:map",
+        "original_name": "Pixel 6 Geocoded Location",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_geocoded_location",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.pixel_6_device_locked",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0e7d6a2f0c2bb66ccd51afbf2d850d81",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cellphone-lock",
+        "original_name": "Pixel 6 Device Locked",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_device_locked",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.pixel_6_device_secure",
+        "hidden_by": null,
+        "icon": null,
+        "id": "98016c0aa2af19bc6690f88a232744a2",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cellphone-key",
+        "original_name": "Pixel 6 Device Secure",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_device_secure",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.pixel_6_keyguard_locked",
+        "hidden_by": null,
+        "icon": null,
+        "id": "49e1549ae79b73e8f6b089069cc8f87d",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cellphone-lock",
+        "original_name": "Pixel 6 Keyguard Locked",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_keyguard_locked",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.pixel_6_keyguard_secure",
+        "hidden_by": null,
+        "icon": null,
+        "id": "195ab0ca17da3f095f9ee879729a18ef",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cellphone-key",
+        "original_name": "Pixel 6 Keyguard Secure",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_keyguard_secure",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_last_used_app",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1de157e46e0255ede2c905d9c49dad1f",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:android",
+        "original_name": "Pixel 6 Last Used App",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_last_used_app",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": "timestamp",
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_last_reboot",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2b0f5792974d6965ae9fc18940f175e7",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:restart",
+        "original_name": "Pixel 6 Last Reboot",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_last_reboot",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_last_update_trigger",
+        "hidden_by": null,
+        "icon": null,
+        "id": "70fe88b788b8c34cb7d5e3aceb714dc2",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:update",
+        "original_name": "Pixel 6 Last Update Trigger",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_last_update",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": "illuminance",
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_light_sensor",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0ce110a757605193082a2a8afae0078b",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "illuminance",
+        "original_icon": "mdi:brightness-5",
+        "original_name": "Pixel 6 Light Sensor",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_light_sensor",
+        "unit_of_measurement": "lx"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.pixel_6_high_accuracy_mode",
+        "hidden_by": null,
+        "icon": null,
+        "id": "4e61dcb7e3f7f05b0bff99be14691e83",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:crosshairs-gps",
+        "original_name": "Pixel 6 High Accuracy Mode",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_high_accuracy_mode",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_high_accuracy_update_interval",
+        "hidden_by": null,
+        "icon": null,
+        "id": "fb36d60311c6771067c23f34da1120f3",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:timer",
+        "original_name": "Pixel 6 High Accuracy Update Interval",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_high_accuracy_update_interval",
+        "unit_of_measurement": "seconds"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.pixel_6_mobile_data",
+        "hidden_by": null,
+        "icon": null,
+        "id": "484b2d6b939ad8dbd081fa842692a848",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:signal",
+        "original_name": "Pixel 6 Mobile Data",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_mobile_data",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.pixel_6_mobile_data_roaming",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b099fbbfe6c39a16e28e6429d73fa867",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:toggle-switch",
+        "original_name": "Pixel 6 Mobile Data Roaming",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_mobile_data_roaming",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_wifi_connection",
+        "hidden_by": null,
+        "icon": null,
+        "id": "13cf4750c69e7886717a8607475fc089",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:wifi",
+        "original_name": "Pixel 6 WiFi Connection",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_wifi_connection",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_wifi_bssid",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0f4d9e1a324e16effe6241a43c3a5846",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:wifi",
+        "original_name": "Pixel 6 WiFi BSSID",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_wifi_bssid",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_wifi_ip_address",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b5e030e40ba9bf2bb4cec8a1f07a291d",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:ip",
+        "original_name": "Pixel 6 WiFi IP Address",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_wifi_ip_address",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_wifi_link_speed",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6479bf44de7a5f7b9f3e025d75455982",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:wifi-strength-3",
+        "original_name": "Pixel 6 WiFi Link Speed",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_wifi_link_speed",
+        "unit_of_measurement": "Mbps"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.pixel_6_wifi_state",
+        "hidden_by": null,
+        "icon": null,
+        "id": "418ef6d3f4fab48e4a70e692993839b7",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:wifi",
+        "original_name": "Pixel 6 WiFi State",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_wifi_state",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_wifi_frequency",
+        "hidden_by": null,
+        "icon": null,
+        "id": "e94bcd9c49bc46e18a0a6e0edeb32bb5",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:wifi",
+        "original_name": "Pixel 6 WiFi Frequency",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_wifi_frequency",
+        "unit_of_measurement": "MHz"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": "signal_strength",
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_wifi_signal_strength",
+        "hidden_by": null,
+        "icon": null,
+        "id": "71de3b513962d033d954a0a90e6a94c5",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": "mdi:wifi-strength-3",
+        "original_name": "Pixel 6 WiFi Signal Strength",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_wifi_signal_strength",
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_public_ip_address",
+        "hidden_by": null,
+        "icon": null,
+        "id": "90967b5109a6c9e6e1ab56601060dcb5",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:ip",
+        "original_name": "Pixel 6 Public IP Address",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_public_ip_address",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_network_type",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1347a42db231561a89e0512db13b031a",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:network",
+        "original_name": "Pixel 6 Network Type",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_network_type",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": "timestamp",
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_next_alarm",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ba45c2014072d1eafa3e53af61182065",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:alarm",
+        "original_name": "Pixel 6 Next Alarm",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_next_alarm",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_last_notification",
+        "hidden_by": null,
+        "icon": null,
+        "id": "dc06ce14a472f1192d14e66db296b184",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:bell-ring",
+        "original_name": "Pixel 6 Last Notification",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_last_notification",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_last_removed_notification",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c7d8e945860b8ce0cacbced37cf1a693",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:bell-ring",
+        "original_name": "Pixel 6 Last Removed Notification",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_last_removed_notification",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_active_notification_count",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7b0b7186537059e7d77c5704da457078",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:bell-ring",
+        "original_name": "Pixel 6 Active Notification Count",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_active_notification_count",
+        "unit_of_measurement": "notifications"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_media_session",
+        "hidden_by": null,
+        "icon": null,
+        "id": "066bd6d837412071afb3fb89b795ab0b",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:play-circle",
+        "original_name": "Pixel 6 Media Session",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_media_session",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_phone_state",
+        "hidden_by": null,
+        "icon": null,
+        "id": "85fa3faf99e94959aeef87300e4cfb22",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:phone",
+        "original_name": "Pixel 6 Phone State",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_phone_state",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_sim_1",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5d14db51666fe128af95a88cf45753a7",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:sim",
+        "original_name": "Pixel 6 SIM 1",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_sim_1",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_sim_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "52732295e6355ae50a4883999f9f084d",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:sim",
+        "original_name": "Pixel 6 SIM 2",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_sim_2",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.pixel_6_interactive",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d61ee09b05223c77e8e5b648b8282c01",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cellphone",
+        "original_name": "Pixel 6 Interactive",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_is_interactive",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.pixel_6_doze_mode",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ff302529473582a08b955c3adfa42ba9",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:sleep",
+        "original_name": "Pixel 6 Doze Mode",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_is_idle",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.pixel_6_power_save",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d9c9425222ae970f53feea79de153eba",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:battery-plus",
+        "original_name": "Pixel 6 Power Save",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_power_save",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": "pressure",
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_pressure_sensor",
+        "hidden_by": null,
+        "icon": null,
+        "id": "8029c34e49fb74b487b3a2a451440a14",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "pressure",
+        "original_icon": "mdi:gauge",
+        "original_name": "Pixel 6 Pressure Sensor",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_pressure_sensor",
+        "unit_of_measurement": "hPa"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_proximity_sensor",
+        "hidden_by": null,
+        "icon": null,
+        "id": "f641d16e6409645625853f21182851bb",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:leak",
+        "original_name": "Pixel 6 Proximity Sensor",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_proximity_sensor",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.pixel_6_steps_sensor",
+        "hidden_by": null,
+        "icon": null,
+        "id": "74a41f7b5a5eb842eb6873d90026822a",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:walk",
+        "original_name": "Pixel 6 Steps Sensor",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_steps_sensor",
+        "unit_of_measurement": "steps"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_internal_storage",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5f44b41fda1386d8cd3981f88ff58d62",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:harddisk",
+        "original_name": "Pixel 6 Internal Storage",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_storage_sensor",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_external_storage",
+        "hidden_by": null,
+        "icon": null,
+        "id": "474b9ae4129f5bc51dfaa025c354a1e8",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:micro-sd",
+        "original_name": "Pixel 6 External Storage",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_external_storage",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_current_time_zone",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2d0d82c8f908aa7c2086985100615724",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:map-clock",
+        "original_name": "Pixel 6 Current Time Zone",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_current_time_zone",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_mobile_rx_gb",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ccd58a824464dbe830c87f7f1b207fcc",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:radio-tower",
+        "original_name": "Pixel 6 Mobile Rx GB",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_mobile_rx_gb",
+        "unit_of_measurement": "GB"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_mobile_tx_gb",
+        "hidden_by": null,
+        "icon": null,
+        "id": "67a1598cdb6f0e930d7c0fe5f7c3f4a2",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:radio-tower",
+        "original_name": "Pixel 6 Mobile Tx GB",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_mobile_tx_gb",
+        "unit_of_measurement": "GB"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_total_rx_gb",
+        "hidden_by": null,
+        "icon": null,
+        "id": "05a75f7a88e74d9557cb5c7a6f1121d9",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:radio-tower",
+        "original_name": "Pixel 6 Total Rx GB",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_total_rx_gb",
+        "unit_of_measurement": "GB"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "device_class": null,
+        "device_id": "16e321419736d6d53bc2525ee124c061",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_total_tx_gb",
+        "hidden_by": null,
+        "icon": null,
+        "id": "8c62e724b95042dff770138c7b2e2450",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:radio-tower",
+        "original_name": "Pixel 6 Total Tx GB",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c_total_tx_gb",
+        "unit_of_measurement": "GB"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "574dd520556c03af71852dbcd24a1fa1",
+        "device_class": null,
+        "device_id": "6486dc11c8452e840e7816c0717e7306",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_remote_b1acn01_battery",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2f0e33b34fb2366e0a79cf3c194c9f26",
+        "has_entity_name": true,
+        "name": "Btn1 Battery",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "battery",
+        "original_icon": null,
+        "original_name": "Battery",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:06:f8:4d:0f-1-1",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "574dd520556c03af71852dbcd24a1fa1",
+        "device_class": null,
+        "device_id": "6486dc11c8452e840e7816c0717e7306",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_remote_b1acn01_rssi",
+        "hidden_by": null,
+        "icon": null,
+        "id": "8e10142e5a9a7a0c972030bdbf5df13a",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "RSSI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:06:f8:4d:0f-1-0-rssi",
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "574dd520556c03af71852dbcd24a1fa1",
+        "device_class": null,
+        "device_id": "6486dc11c8452e840e7816c0717e7306",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_remote_b1acn01_lqi",
+        "hidden_by": null,
+        "icon": null,
+        "id": "3fec36043f34538bf236632ff96f4ebb",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "LQI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:06:f8:4d:0f-1-0-lqi",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": null,
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "automation.automation_0",
+        "hidden_by": null,
+        "icon": null,
+        "id": "16d86baf110177f34221168678ae5d9b",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "automation 0",
+        "platform": "automation",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "1685656953891",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "0c6a4432721c6a36b32a7327ef56a2ec",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.samba_share_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "9069f7bf230ad1d012e12c6df7a8c539",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Update",
+        "platform": "hassio",
+        "supported_features": 25,
+        "translation_key": null,
+        "unique_id": "core_samba_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "7d9ef419fd22245d381bd743ac41e651",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.terminal_ssh_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "620fcc5b4ea621bc27469e48984c97b4",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Update",
+        "platform": "hassio",
+        "supported_features": 25,
+        "translation_key": null,
+        "unique_id": "core_ssh_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "93be282751bb18a2b457d35cd32e2152",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.file_editor_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "3ec661475a997afb011a639e91a0b689",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Update",
+        "platform": "hassio",
+        "supported_features": 25,
+        "translation_key": null,
+        "unique_id": "core_configurator_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "0c6a4432721c6a36b32a7327ef56a2ec",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "binary_sensor.samba_share_running",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5b7d89bce87ce6a6f77a4dc8b013a933",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "running",
+        "original_icon": null,
+        "original_name": "Running",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "state",
+        "unique_id": "core_samba_state",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "7d9ef419fd22245d381bd743ac41e651",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "binary_sensor.terminal_ssh_running",
+        "hidden_by": null,
+        "icon": null,
+        "id": "4427891634e61557dbb6f7b459b09b4b",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "running",
+        "original_icon": null,
+        "original_name": "Running",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "state",
+        "unique_id": "core_ssh_state",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "93be282751bb18a2b457d35cd32e2152",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "binary_sensor.file_editor_running",
+        "hidden_by": null,
+        "icon": null,
+        "id": "713bbff4052b0258879798e8e03f9575",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "running",
+        "original_icon": null,
+        "original_name": "Running",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "state",
+        "unique_id": "core_configurator_state",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "0c6a4432721c6a36b32a7327ef56a2ec",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.samba_share_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7534ab8f7bbd884a3e243425ed058a61",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version",
+        "unique_id": "core_samba_version",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "0c6a4432721c6a36b32a7327ef56a2ec",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.samba_share_newest_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1d33f15f6e5a058f2d6eb26eb8111ac5",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Newest version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version_latest",
+        "unique_id": "core_samba_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "0c6a4432721c6a36b32a7327ef56a2ec",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.samba_share_cpu_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "aefd6ab476e846d5cfa8258d7cff24c9",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cpu-64-bit",
+        "original_name": "CPU percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "cpu_percent",
+        "unique_id": "core_samba_cpu_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "0c6a4432721c6a36b32a7327ef56a2ec",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.samba_share_memory_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "dd5e2fcaac0d87b0492e1403f103861f",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:memory",
+        "original_name": "Memory percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "memory_percent",
+        "unique_id": "core_samba_memory_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "7d9ef419fd22245d381bd743ac41e651",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.terminal_ssh_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "42f5da685afb5279a664f7165eba9711",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version",
+        "unique_id": "core_ssh_version",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "7d9ef419fd22245d381bd743ac41e651",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.terminal_ssh_newest_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "bc08ca1c82a939129ca1ca7b974cf64a",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Newest version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version_latest",
+        "unique_id": "core_ssh_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "7d9ef419fd22245d381bd743ac41e651",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.terminal_ssh_cpu_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "8c0f3d1951aea2f69e6893367c4f90d2",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cpu-64-bit",
+        "original_name": "CPU percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "cpu_percent",
+        "unique_id": "core_ssh_cpu_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "7d9ef419fd22245d381bd743ac41e651",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.terminal_ssh_memory_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c3f2b4e89e14c868e717f0a454270f8b",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:memory",
+        "original_name": "Memory percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "memory_percent",
+        "unique_id": "core_ssh_memory_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "93be282751bb18a2b457d35cd32e2152",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.file_editor_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ee02ce94b92f279c77efa4237a158188",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version",
+        "unique_id": "core_configurator_version",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "93be282751bb18a2b457d35cd32e2152",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.file_editor_newest_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "866c80ff3db1135e99ff1820e2b60814",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Newest version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version_latest",
+        "unique_id": "core_configurator_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "93be282751bb18a2b457d35cd32e2152",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.file_editor_cpu_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b8e9e8ace76a8929178d270368226db9",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cpu-64-bit",
+        "original_name": "CPU percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "cpu_percent",
+        "unique_id": "core_configurator_cpu_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "93be282751bb18a2b457d35cd32e2152",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.file_editor_memory_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "fae165e30f54fd3c8187283a52446aa3",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:memory",
+        "original_name": "Memory percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "memory_percent",
+        "unique_id": "core_configurator_memory_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "346ee256dc0b80488bffd4e63cfaef7c",
+        "device_class": null,
+        "device_id": "fde518a92d6425ed4183855b7a665de6",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "button.scan_clients_nas",
+        "hidden_by": null,
+        "icon": null,
+        "id": "07edf2f02d26ae94ee317c29df96cb00",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Scan Clients (NAS)",
+        "platform": "plex",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "plex-scan_clients-8e46d6c4912cd5f9715f05d7e1b9f8ca9d377860",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "346ee256dc0b80488bffd4e63cfaef7c",
+        "device_class": null,
+        "device_id": "fde518a92d6425ed4183855b7a665de6",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.plex_nas",
+        "hidden_by": null,
+        "icon": null,
+        "id": "463909b095aa9e60ce7149d696c1ba24",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:plex",
+        "original_name": "Plex (NAS)",
+        "platform": "plex",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "sensor-8e46d6c4912cd5f9715f05d7e1b9f8ca9d377860",
+        "unit_of_measurement": "Watching"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "346ee256dc0b80488bffd4e63cfaef7c",
+        "device_class": null,
+        "device_id": "fde518a92d6425ed4183855b7a665de6",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.nas_library_films",
+        "hidden_by": null,
+        "icon": null,
+        "id": "62d8636b778e8919c45ad8cd0663b4e2",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:movie",
+        "original_name": "NAS Library - Films",
+        "platform": "plex",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "library-8e46d6c4912cd5f9715f05d7e1b9f8ca9d377860-b7eb9a31-3f16-4db8-991a-c9ffc003a907",
+        "unit_of_measurement": "Items"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "346ee256dc0b80488bffd4e63cfaef7c",
+        "device_class": null,
+        "device_id": "fde518a92d6425ed4183855b7a665de6",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.nas_library_tv_shows",
+        "hidden_by": null,
+        "icon": null,
+        "id": "989a97ed9926233a370ad0fb03173893",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:television",
+        "original_name": "NAS Library - TV shows",
+        "platform": "plex",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "library-8e46d6c4912cd5f9715f05d7e1b9f8ca9d377860-aabc9353-33c6-480d-8f8c-e668a8846597",
+        "unit_of_measurement": "Items"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "8f8aa206476b05cca8daa03259bd3ce4",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "binary_sensor.git_pull_running",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b14634cea469e35d162e8f2ac968a04c",
+        "has_entity_name": true,
+        "name": null,
+        "options": {},
+        "original_device_class": "running",
+        "original_icon": null,
+        "original_name": "Running",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "state",
+        "unique_id": "core_git_pull_state",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "8f8aa206476b05cca8daa03259bd3ce4",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.git_pull_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7faca26e3a65f93a8c833156114ad4a3",
+        "has_entity_name": true,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version",
+        "unique_id": "core_git_pull_version",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "8f8aa206476b05cca8daa03259bd3ce4",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.git_pull_newest_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6b46dc20bf4c4767582c6ec078fadd50",
+        "has_entity_name": true,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Newest version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version_latest",
+        "unique_id": "core_git_pull_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "8f8aa206476b05cca8daa03259bd3ce4",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.git_pull_cpu_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c0fc356c2a7b7dd7f872d535d6f34903",
+        "has_entity_name": true,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:cpu-64-bit",
+        "original_name": "CPU percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "cpu_percent",
+        "unique_id": "core_git_pull_cpu_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "8f8aa206476b05cca8daa03259bd3ce4",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.git_pull_memory_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "07c3a56dfcad1b4f6d0cd0d07ed1dd2c",
+        "has_entity_name": true,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:memory",
+        "original_name": "Memory percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "memory_percent",
+        "unique_id": "core_git_pull_memory_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "device_class": null,
+        "device_id": "8f8aa206476b05cca8daa03259bd3ce4",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.git_pull_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "f1eb3b39606407bfd1a93f54eac67e7c",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Update",
+        "platform": "hassio",
+        "supported_features": 25,
+        "translation_key": null,
+        "unique_id": "core_git_pull_version_latest",
+        "unit_of_measurement": null
+      }
+    ]
+  }
+}

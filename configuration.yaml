@@ -1,0 +1,21 @@
+
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+#opnsense:
+#  url: http://172.16.0.1
+#  api_secret: C/9KmRqtFJq6ZbcqK4ux8BhPIV7TZmECHX8VUxncRiktEcpu9rtlFeVl6ZN35FRSzLO3kWVk1JVuToiO
+#  api_key: F6W8UgPpt8LhYQBKE3SlJubQPm2tiHxE0DzJtnSFe5TfA5tyDtsYNmIwrovHE2CsQTVkYLO5cW5oK46u
+#  verify_ssl: false

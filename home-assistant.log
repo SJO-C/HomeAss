@@ -1,0 +1,70 @@
+2023-06-02 18:11:35.266 WARNING (SyncWorker_2) [py.warnings] /usr/local/lib/python3.11/site-packages/urllib3/connectionpool.py:1056: InsecureRequestWarning: Unverified HTTPS request is being made to host '172.16.0.1'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  warnings.warn(
+
+2023-06-02 18:11:35.299 WARNING (SyncWorker_2) [py.warnings] /usr/local/lib/python3.11/site-packages/urllib3/connectionpool.py:1056: InsecureRequestWarning: Unverified HTTPS request is being made to host '172.16.0.1'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  warnings.warn(
+
+2023-06-02 18:11:35.523 ERROR (MainThread) [homeassistant.setup] Error during setup of component opnsense
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/setup.py", line 283, in _async_setup_component
+    result = await task
+             ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/opnsense/__init__.py", line 55, in setup
+    interfaces_client.get_arp()
+  File "/usr/local/lib/python3.11/site-packages/pyopnsense/diagnostics.py", line 52, in get_arp
+    return self._get('diagnostics/interface/getArp')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pyopnsense/client.py", line 54, in _get
+    return self._process_response(response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pyopnsense/client.py", line 44, in _process_response
+    return json.loads(response.text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-06-02 18:12:41.589 ERROR (MainThread) [frontend.js.latest.202306011] :0:0 Script error.
+2023-06-02 18:12:46.493 ERROR (MainThread) [frontend.js.latest.202306011] :0:0 Script error.
+2023-06-02 18:12:47.021 ERROR (MainThread) [frontend.js.latest.202306011] :0:0 Script error.
+2023-06-02 18:13:11.798 ERROR (Thread-21 (_connect)) [plexapi] http://192.168.1.1:32400: HTTPConnectionPool(host='192.168.1.1', port=32400): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0c72473e50>: Failed to establish a new connection: [Errno 113] Host is unreachable'))
+2023-06-02 18:13:11.800 ERROR (Thread-20 (_connect)) [plexapi] http://192.168.0.1:32400: HTTPConnectionPool(host='192.168.0.1', port=32400): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0c7247a3d0>: Failed to establish a new connection: [Errno 113] Host is unreachable'))
+2023-06-02 18:13:11.852 ERROR (Thread-34 (_connect)) [plexapi] http://178.79.172.216:8443: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2023-06-02 18:13:14.872 ERROR (Thread-25 (_connect)) [plexapi] http://172.16.222.50:32400: HTTPConnectionPool(host='172.16.222.50', port=32400): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0c724c8e10>: Failed to establish a new connection: [Errno 113] Host is unreachable'))
+2023-06-02 18:13:14.873 ERROR (Thread-12 (_connect)) [plexapi] https://172-16-222-50.be9cb45a76a24c00beba84e281d927c5.plex.direct:32400: HTTPSConnectionPool(host='172-16-222-50.be9cb45a76a24c00beba84e281d927c5.plex.direct', port=32400): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f0c7243a210>: Failed to establish a new connection: [Errno 113] Host is unreachable'))
+2023-06-02 18:13:18.904 ERROR (Thread-31 (_connect)) [plexapi] http://192.168.1.218:32400: HTTPConnectionPool(host='192.168.1.218', port=32400): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0c724df7d0>: Failed to establish a new connection: [Errno 113] Host is unreachable'))
+2023-06-02 18:13:18.906 ERROR (Thread-29 (_connect)) [plexapi] http://192.168.1.231:32400: HTTPConnectionPool(host='192.168.1.231', port=32400): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0c724d7cd0>: Failed to establish a new connection: [Errno 113] Host is unreachable'))
+2023-06-02 18:13:21.810 ERROR (Thread-23 (_connect)) [plexapi] http://192.168.1.234:32400: HTTPConnectionPool(host='192.168.1.234', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0c72482f90>, 'Connection to 192.168.1.234 timed out. (connect timeout=10)'))
+2023-06-02 18:13:21.810 ERROR (Thread-22 (_connect)) [plexapi] http://192.168.1.74:32400: HTTPConnectionPool(host='192.168.1.74', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0c7248d350>, 'Connection to 192.168.1.74 timed out. (connect timeout=10)'))
+2023-06-02 18:13:21.815 ERROR (Thread-10 (_connect)) [plexapi] https://192-168-1-234.be9cb45a76a24c00beba84e281d927c5.plex.direct:32400: HTTPSConnectionPool(host='192-168-1-234.be9cb45a76a24c00beba84e281d927c5.plex.direct', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f0c7242ac90>, 'Connection to 192-168-1-234.be9cb45a76a24c00beba84e281d927c5.plex.direct timed out. (connect timeout=10)'))
+2023-06-02 18:13:21.817 ERROR (Thread-24 (_connect)) [plexapi] http://192.168.1.238:32400: HTTPConnectionPool(host='192.168.1.238', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0c724b5f50>, 'Connection to 192.168.1.238 timed out. (connect timeout=10)'))
+2023-06-02 18:13:21.818 ERROR (Thread-11 (_connect)) [plexapi] https://192-168-1-238.be9cb45a76a24c00beba84e281d927c5.plex.direct:32400: HTTPSConnectionPool(host='192-168-1-238.be9cb45a76a24c00beba84e281d927c5.plex.direct', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f0c7243b6d0>, 'Connection to 192-168-1-238.be9cb45a76a24c00beba84e281d927c5.plex.direct timed out. (connect timeout=10)'))
+2023-06-02 18:13:21.819 ERROR (Thread-19 (_connect)) [plexapi] https://192-168-1-154.be9cb45a76a24c00beba84e281d927c5.plex.direct:32400: HTTPSConnectionPool(host='192-168-1-154.be9cb45a76a24c00beba84e281d927c5.plex.direct', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f0c72467d50>, 'Connection to 192-168-1-154.be9cb45a76a24c00beba84e281d927c5.plex.direct timed out. (connect timeout=10)'))
+2023-06-02 18:13:21.827 ERROR (Thread-26 (_connect)) [plexapi] http://192.168.1.36:32400: HTTPConnectionPool(host='192.168.1.36', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0c724d46d0>, 'Connection to 192.168.1.36 timed out. (connect timeout=10)'))
+2023-06-02 18:13:21.830 ERROR (Thread-27 (_connect)) [plexapi] http://192.168.1.107:32400: HTTPConnectionPool(host='192.168.1.107', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0c72473f90>, 'Connection to 192.168.1.107 timed out. (connect timeout=10)'))
+2023-06-02 18:13:21.831 ERROR (Thread-28 (_connect)) [plexapi] http://192.168.1.117:32400: HTTPConnectionPool(host='192.168.1.117', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0c724d9f50>, 'Connection to 192.168.1.117 timed out. (connect timeout=10)'))
+2023-06-02 18:13:21.833 ERROR (Thread-30 (_connect)) [plexapi] http://192.168.1.32:32400: HTTPConnectionPool(host='192.168.1.32', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0c724dc310>, 'Connection to 192.168.1.32 timed out. (connect timeout=10)'))
+2023-06-02 18:13:21.837 ERROR (Thread-32 (_connect)) [plexapi] http://192.168.1.154:32400: HTTPConnectionPool(host='192.168.1.154', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0c724eae50>, 'Connection to 192.168.1.154 timed out. (connect timeout=10)'))
+2023-06-02 18:13:21.862 ERROR (Thread-7 (_connect)) [plexapi] https://192-168-0-1.be9cb45a76a24c00beba84e281d927c5.plex.direct:32400: HTTPSConnectionPool(host='192-168-0-1.be9cb45a76a24c00beba84e281d927c5.plex.direct', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f0c72d4e390>, 'Connection to 192-168-0-1.be9cb45a76a24c00beba84e281d927c5.plex.direct timed out. (connect timeout=10)'))
+2023-06-02 18:13:21.879 ERROR (Thread-15 (_connect)) [plexapi] https://192-168-1-117.be9cb45a76a24c00beba84e281d927c5.plex.direct:32400: HTTPSConnectionPool(host='192-168-1-117.be9cb45a76a24c00beba84e281d927c5.plex.direct', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f0c72447790>, 'Connection to 192-168-1-117.be9cb45a76a24c00beba84e281d927c5.plex.direct timed out. (connect timeout=10)'))
+2023-06-02 18:13:21.892 ERROR (Thread-17 (_connect)) [plexapi] https://192-168-1-32.be9cb45a76a24c00beba84e281d927c5.plex.direct:32400: HTTPSConnectionPool(host='192-168-1-32.be9cb45a76a24c00beba84e281d927c5.plex.direct', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f0c72454f10>, 'Connection to 192-168-1-32.be9cb45a76a24c00beba84e281d927c5.plex.direct timed out. (connect timeout=10)'))
+2023-06-02 18:13:21.896 ERROR (Thread-13 (_connect)) [plexapi] https://192-168-1-36.be9cb45a76a24c00beba84e281d927c5.plex.direct:32400: HTTPSConnectionPool(host='192-168-1-36.be9cb45a76a24c00beba84e281d927c5.plex.direct', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f0c7243ac50>, 'Connection to 192-168-1-36.be9cb45a76a24c00beba84e281d927c5.plex.direct timed out. (connect timeout=10)'))
+2023-06-02 18:13:21.924 ERROR (Thread-8 (_connect)) [plexapi] https://192-168-1-1.be9cb45a76a24c00beba84e281d927c5.plex.direct:32400: HTTPSConnectionPool(host='192-168-1-1.be9cb45a76a24c00beba84e281d927c5.plex.direct', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f0c72d4e950>, 'Connection to 192-168-1-1.be9cb45a76a24c00beba84e281d927c5.plex.direct timed out. (connect timeout=10)'))
+2023-06-02 18:13:21.954 ERROR (Thread-18 (_connect)) [plexapi] https://192-168-1-218.be9cb45a76a24c00beba84e281d927c5.plex.direct:32400: HTTPSConnectionPool(host='192-168-1-218.be9cb45a76a24c00beba84e281d927c5.plex.direct', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f0c72467310>, 'Connection to 192-168-1-218.be9cb45a76a24c00beba84e281d927c5.plex.direct timed out. (connect timeout=10)'))
+2023-06-02 18:13:21.974 ERROR (Thread-16 (_connect)) [plexapi] https://192-168-1-231.be9cb45a76a24c00beba84e281d927c5.plex.direct:32400: HTTPSConnectionPool(host='192-168-1-231.be9cb45a76a24c00beba84e281d927c5.plex.direct', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f0c72456550>, 'Connection to 192-168-1-231.be9cb45a76a24c00beba84e281d927c5.plex.direct timed out. (connect timeout=10)'))
+2023-06-02 18:13:22.006 ERROR (Thread-9 (_connect)) [plexapi] https://192-168-1-74.be9cb45a76a24c00beba84e281d927c5.plex.direct:32400: HTTPSConnectionPool(host='192-168-1-74.be9cb45a76a24c00beba84e281d927c5.plex.direct', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f0c7242b450>, 'Connection to 192-168-1-74.be9cb45a76a24c00beba84e281d927c5.plex.direct timed out. (connect timeout=10)'))
+2023-06-02 18:13:22.032 ERROR (Thread-14 (_connect)) [plexapi] https://192-168-1-107.be9cb45a76a24c00beba84e281d927c5.plex.direct:32400: HTTPSConnectionPool(host='192-168-1-107.be9cb45a76a24c00beba84e281d927c5.plex.direct', port=32400): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f0c72455ad0>, 'Connection to 192-168-1-107.be9cb45a76a24c00beba84e281d927c5.plex.direct timed out. (connect timeout=10)'))
+2023-06-02 18:13:59.608 ERROR (MainThread) [frontend.js.latest.202306011] :0:0 Script error.
+2023-06-02 18:13:59.643 ERROR (MainThread) [frontend.js.latest.202306011] :0:0 Script error.
+2023-06-02 18:14:03.953 ERROR (MainThread) [frontend.js.latest.202306011] :0:0 Script error.
+2023-06-02 18:19:25.777 ERROR (MainThread) [frontend.js.latest.202306011] :0:0 Script error.
+2023-06-02 18:19:30.235 ERROR (MainThread) [frontend.js.latest.202306011] :0:0 Script error.
+2023-06-02 18:26:30.621 ERROR (MainThread) [homeassistant.components.plex.server] Could not connect to Plex server: NAS (HTTPSConnectionPool(host='178-79-172-216.be9cb45a76a24c00beba84e281d927c5.plex.direct', port=8443): Read timed out. (read timeout=30))

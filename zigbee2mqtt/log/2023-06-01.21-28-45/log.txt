@@ -1,0 +1,17 @@
+debug 2023-06-01 21:28:45: Can't load state from file /config/zigbee2mqtt/state.json (doesn't exist)
+info  2023-06-01 21:28:45: Logging to console and directory: '/config/zigbee2mqtt/log/2023-06-01.21-28-45' filename: log.txt
+debug 2023-06-01 21:28:45: Removing old log directory '/config/zigbee2mqtt/log/2023-06-01.21-17-45'
+info  2023-06-01 21:28:45: Starting Zigbee2MQTT version 1.31.0 (commit #unknown)
+info  2023-06-01 21:28:45: Starting zigbee-herdsman (0.14.117)
+debug 2023-06-01 21:28:45: Using zigbee-herdsman with settings: '{"adapter":{"concurrent":null,"delay":null,"disableLED":false},"backupPath":"/config/zigbee2mqtt/coordinator_backup.json","databaseBackupPath":"/config/zigbee2mqtt/database.db.backup","databasePath":"/config/zigbee2mqtt/database.db","network":{"channelList":[11],"extendedPanID":[221,221,221,221,221,221,221,221],"networkKey":"HIDDEN","panID":6754},"serialPort":{"adapter":"ezsp","path":"tcp://core-silabs-multiprotocol:9999"}}'
+info  2023-06-01 21:28:50: zigbee-herdsman started (resumed)
+info  2023-06-01 21:28:50: Coordinator firmware version: '{"meta":{"maintrel":"3 ","majorrel":"7","minorrel":"2","product":11,"revision":"7.2.3.0 build 0"},"type":"EZSP v11"}'
+debug 2023-06-01 21:28:50: Zigbee network parameters: {"channel":11,"extendedPanID":221,"panID":6754}
+info  2023-06-01 21:28:50: Currently 0 devices are joined:
+info  2023-06-01 21:28:50: Zigbee: disabling joining new devices.
+info  2023-06-01 21:28:50: Connecting to MQTT server at mqtt://localhost:1883
+debug 2023-06-01 21:28:50: Using MQTT anonymous login
+error 2023-06-01 21:28:50: MQTT error: connect ECONNREFUSED 127.0.0.1:1883
+error 2023-06-01 21:28:50: MQTT failed to connect, exiting...
+info  2023-06-01 21:28:50: Stopping zigbee-herdsman...
+info  2023-06-01 21:28:50: Stopped zigbee-herdsman

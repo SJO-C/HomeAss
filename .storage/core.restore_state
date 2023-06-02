@@ -1,0 +1,723 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "person.sam",
+        "state": "unknown",
+        "attributes": {
+          "editable": true,
+          "id": "sam",
+          "user_id": "31c1061e99af44dfa79a0f6d7a93ac93",
+          "device_trackers": [
+            "device_tracker.pixel_6"
+          ],
+          "friendly_name": "sam"
+        },
+        "last_changed": "2023-06-02T17:11:24.667886+00:00",
+        "last_updated": "2023-06-02T17:11:43.672663+00:00",
+        "context": {
+          "id": "01H1YHFYSR1D75FFMD9PGMNER0",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_supervisor_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "2023.06.0",
+          "in_progress": false,
+          "latest_version": "2023.06.0",
+          "release_summary": null,
+          "release_url": "https://github.com/home-assistant/supervisor/releases/tag/2023.06.0",
+          "skipped_version": null,
+          "title": "Home Assistant Supervisor",
+          "entity_picture": "https://brands.home-assistant.io/hassio/icon.png",
+          "friendly_name": "Home Assistant Supervisor Update",
+          "supported_features": 1
+        },
+        "last_changed": "2023-06-02T17:11:31.413029+00:00",
+        "last_updated": "2023-06-02T17:11:31.413029+00:00",
+        "context": {
+          "id": "01H1YHFJTNMW0VRESRX89DDJC4",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_core_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "2023.6.0b3",
+          "in_progress": false,
+          "latest_version": "2023.6.0b3",
+          "release_summary": null,
+          "release_url": "https://rc.home-assistant.io/latest-release-notes/",
+          "skipped_version": null,
+          "title": "Home Assistant Core",
+          "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+          "friendly_name": "Home Assistant Core Update",
+          "supported_features": 11
+        },
+        "last_changed": "2023-06-02T17:11:31.413197+00:00",
+        "last_updated": "2023-06-02T17:11:31.413197+00:00",
+        "context": {
+          "id": "01H1YHFJTNYV3JD3JEQK2MG0J4",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.matter_server_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "4.5.1",
+          "in_progress": false,
+          "latest_version": "4.5.1",
+          "release_summary": "# Changelog\n\n## 4.5.1\n\n- Bump Python Matter Server to [3.4.2](https://github.com/home-assistant-libs/python-matter-server/releases/tag/3.4.2)\n\n## 4.5.0\n\n- Bump Python Matter Server to [3.4.1](https://github.com/home-assistant-libs/python-matter-server/rel",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Matter Server",
+          "entity_picture": "/api/hassio/addons/core_matter_server/icon",
+          "friendly_name": "Matter Server Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-06-02T17:11:31.413314+00:00",
+        "last_updated": "2023-06-02T17:11:31.413314+00:00",
+        "context": {
+          "id": "01H1YHFJTN5QHGN1AANA5P25PS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.silicon_labs_multiprotocol_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "2.0.0",
+          "in_progress": false,
+          "latest_version": "2.0.0",
+          "release_summary": "# Changelog\n\n## 2.0.0\n\n- Update OpenThread REST API to latest upstreamed API variant\n\n## 1.1.3\n\n- Use native zigbeed on x86-64/amd64 architecture\n- Avoid deleting otbr-web user content twice\n\n## 1.1.2\n\n- Use Silicon Labs Gecko SDK 4.2.3\n- Avoid starting m",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Silicon Labs Multiprotocol",
+          "entity_picture": "/api/hassio/addons/core_silabs_multiprotocol/icon",
+          "friendly_name": "Silicon Labs Multiprotocol Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-06-02T17:11:31.413416+00:00",
+        "last_updated": "2023-06-02T17:11:31.413416+00:00",
+        "context": {
+          "id": "01H1YHFJTNY16WRZMYNFPRJCZH",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.openthread_border_router_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "2.0.0",
+          "in_progress": false,
+          "latest_version": "2.0.0",
+          "release_summary": "# Changelog\n\n## 2.0.0\n\n- Bump to OTBR POSIX version f46f68956b (2023-05-23 09:28:30 -0700)\n  This update includes the new REST API part of upstream OTBR\n\n## 1.2.0\n\n- Fix firmware flashing on Home Assistant Yellow\n- Bump universal SiLabs flasher to 0.0.12\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "OpenThread Border Router",
+          "entity_picture": "/api/hassio/addons/core_openthread_border_router/icon",
+          "friendly_name": "OpenThread Border Router Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-06-02T17:11:31.413655+00:00",
+        "last_updated": "2023-06-02T17:11:31.413655+00:00",
+        "context": {
+          "id": "01H1YHFJTN2DRW7ZD7R7NRJEHR",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.mosquitto_broker_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "6.2.1",
+          "in_progress": false,
+          "latest_version": "6.2.1",
+          "release_summary": "# Changelog\n\n## 6.2.1\n\n- Add explicit dependencies for dynamic security plugin and asynchronous name resolver \n\n## 6.2.0\n\n- Update mosquitto to 2.0.15\n- Update libwebsockets to 4.3.2 (fixes Unable to create websockets listener)\n\n## 6.1.3\n\n- Change timesta",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Mosquitto broker",
+          "entity_picture": "/api/hassio/addons/core_mosquitto/icon",
+          "friendly_name": "Mosquitto broker Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-06-02T17:11:31.413811+00:00",
+        "last_updated": "2023-06-02T17:11:31.413811+00:00",
+        "context": {
+          "id": "01H1YHFJTNWXNC6J04MYGK78VN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.samba_share_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "10.0.2",
+          "in_progress": false,
+          "latest_version": "10.0.2",
+          "release_summary": "# Changelog\n\n## 10.0.2\n\n- Enable IPv6 ULA and IPv4 link-local addresses by default\n\n## 10.0.1\n\n- Update to Alpine 3.17\n\n## 10.0.0\n\nBREAKING CHANGE: Don't mangle filenames\n\nBy default, Samba mangles filenames with special characters to ensure\ncompatibility",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Samba share",
+          "entity_picture": "/api/hassio/addons/core_samba/icon",
+          "friendly_name": "Samba share Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-06-02T17:11:31.413923+00:00",
+        "last_updated": "2023-06-02T17:11:31.413923+00:00",
+        "context": {
+          "id": "01H1YHFJTN65XXCE6EE0KE856R",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.terminal_ssh_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "9.7.1",
+          "in_progress": false,
+          "latest_version": "9.7.1",
+          "release_summary": "# Changelog\n\n## 9.7.1\n\n- Upgrade Home Assistant CLI to 4.26.0\n\n## 9.7.0\n\n- Upgrade Home Assistant CLI to 4.23.0\n- Upgrade to Alpine 3.17\n- Update ttyd to 1.7.3\n- Update libwebsockets to 4.3.2\n\n## 9.6.2\n\n- Make SUPERVISOR_TOKEN available as an SSH environm",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Terminal & SSH",
+          "entity_picture": "/api/hassio/addons/core_ssh/icon",
+          "friendly_name": "Terminal & SSH Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-06-02T17:11:31.414018+00:00",
+        "last_updated": "2023-06-02T17:11:31.414018+00:00",
+        "context": {
+          "id": "01H1YHFJTP9P7CFTY7M9807KWZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.file_editor_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "5.6.0",
+          "in_progress": false,
+          "latest_version": "5.6.0",
+          "release_summary": "# Changelog\n\n## 5.6.0\n\n- Update base image to Alpine 3.17\n- Migrate old style S6 Overlay service scripts to new `s6-rc.d` style\n- Add Docker healthchecks\n\n## 5.5.1\n\n- Fix Home Assistant wheels path\n\n## 5.5.0\n\n- Update base image to Alpine 3.16\n  - Bumps `",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "File editor",
+          "entity_picture": "/api/hassio/addons/core_configurator/icon",
+          "friendly_name": "File editor Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-06-02T17:11:31.414103+00:00",
+        "last_updated": "2023-06-02T17:11:31.414103+00:00",
+        "context": {
+          "id": "01H1YHFJTPZ8TS7MNAHAEYNHTZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_operating_system_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "10.2",
+          "in_progress": false,
+          "latest_version": "10.2",
+          "release_summary": null,
+          "release_url": "https://github.com/home-assistant/operating-system/releases/tag/10.2",
+          "skipped_version": null,
+          "title": "Home Assistant Operating System",
+          "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+          "friendly_name": "Home Assistant Operating System Update",
+          "supported_features": 3
+        },
+        "last_changed": "2023-06-02T17:11:31.414253+00:00",
+        "last_updated": "2023-06-02T17:11:31.414253+00:00",
+        "context": {
+          "id": "01H1YHFJTPP1EC7GBB0EJF6S0K",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.pixel_6_battery_level",
+        "state": "100",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-charging",
+          "friendly_name": "Pixel 6 Battery Level"
+        },
+        "last_changed": "2023-06-02T17:16:56.543772+00:00",
+        "last_updated": "2023-06-02T17:32:49.430141+00:00",
+        "context": {
+          "id": "01H1YJPJWP2AYM6DGB7ZYM7JBZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 100,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.pixel_6_battery_state",
+        "state": "charging",
+        "attributes": {
+          "icon": "mdi:battery-plus",
+          "friendly_name": "Pixel 6 Battery State"
+        },
+        "last_changed": "2023-06-02T17:11:35.716134+00:00",
+        "last_updated": "2023-06-02T17:11:35.716134+00:00",
+        "context": {
+          "id": "01H1YHFQ14SJSNQYEAZ7JYSC2K",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.pixel_6_charger_type",
+        "state": "ac",
+        "attributes": {
+          "icon": "mdi:power-plug",
+          "friendly_name": "Pixel 6 Charger Type"
+        },
+        "last_changed": "2023-06-02T17:11:35.716221+00:00",
+        "last_updated": "2023-06-02T17:11:35.716221+00:00",
+        "context": {
+          "id": "01H1YHFQ144S1P61C4Z89DCM2K",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "ac",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.pixel_6",
+        "state": "unknown",
+        "attributes": {
+          "source_type": "gps",
+          "friendly_name": "Pixel 6"
+        },
+        "last_changed": "2023-06-02T17:11:35.716988+00:00",
+        "last_updated": "2023-06-02T17:11:35.716988+00:00",
+        "context": {
+          "id": "01H1YHFQ14XSZMQ34SG8RZV93V",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.signify_netherlands_b_v_ltv002_identify",
+        "state": "2023-06-01T20:43:34.926652+00:00",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "Signify Netherlands B.V. LTV002 Identify"
+        },
+        "last_changed": "2023-06-02T17:11:43.026046+00:00",
+        "last_updated": "2023-06-02T17:11:43.026046+00:00",
+        "context": {
+          "id": "01H1YHFY5JQNKZ4F6CDBDWH2Y5",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "light.signify_netherlands_b_v_ltv002_light",
+        "state": "on",
+        "attributes": {
+          "min_color_temp_kelvin": 2202,
+          "max_color_temp_kelvin": 4504,
+          "min_mireds": 222,
+          "max_mireds": 454,
+          "supported_color_modes": [
+            "color_temp"
+          ],
+          "color_mode": "color_temp",
+          "brightness": 254,
+          "color_temp_kelvin": 2202,
+          "color_temp": 454,
+          "hs_color": [
+            29.79,
+            84.553
+          ],
+          "rgb_color": [
+            255,
+            146,
+            39
+          ],
+          "xy_color": [
+            0.579,
+            0.388
+          ],
+          "off_with_transition": false,
+          "off_brightness": null,
+          "friendly_name": "Lamp",
+          "supported_features": 40
+        },
+        "last_changed": "2023-06-02T17:11:43.026704+00:00",
+        "last_updated": "2023-06-02T17:11:43.026704+00:00",
+        "context": {
+          "id": "01H1YHFY5J3JBAGEXT5NGZXC8D",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "number.signify_netherlands_b_v_ltv002_start_up_current_level",
+        "state": "254",
+        "attributes": {
+          "min": 0,
+          "max": 255,
+          "step": 1.0,
+          "mode": "auto",
+          "friendly_name": "Signify Netherlands B.V. LTV002 Start-up current level"
+        },
+        "last_changed": "2023-06-02T17:11:43.027253+00:00",
+        "last_updated": "2023-06-02T17:11:43.027253+00:00",
+        "context": {
+          "id": "01H1YHFY5KEYQEQM3K5718QP4N",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "number.signify_netherlands_b_v_ltv002_start_up_color_temperature",
+        "state": "222",
+        "attributes": {
+          "min": 222,
+          "max": 454,
+          "step": 1.0,
+          "mode": "auto",
+          "friendly_name": "Signify Netherlands B.V. LTV002 Start-up color temperature"
+        },
+        "last_changed": "2023-06-02T17:11:43.027997+00:00",
+        "last_updated": "2023-06-02T17:11:43.027997+00:00",
+        "context": {
+          "id": "01H1YHFY5KH2TVCEGRWZEHD52Y",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "select.signify_netherlands_b_v_ltv002_start_up_behavior",
+        "state": "On",
+        "attributes": {
+          "options": [
+            "Off",
+            "On",
+            "Toggle",
+            "PreviousValue"
+          ],
+          "friendly_name": "Signify Netherlands B.V. LTV002 Start-up behavior"
+        },
+        "last_changed": "2023-06-02T17:11:43.028463+00:00",
+        "last_updated": "2023-06-02T17:11:43.028463+00:00",
+        "context": {
+          "id": "01H1YHFY5M0VY7CANMARNESCMX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.tz3000_qaaysllp_ts0201_battery",
+        "state": "1",
+        "attributes": {
+          "state_class": "measurement",
+          "battery_voltage": 2.5,
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "friendly_name": "_TZ3000_qaaysllp TS0201 Battery"
+        },
+        "last_changed": "2023-06-02T17:11:43.028965+00:00",
+        "last_updated": "2023-06-02T17:11:43.028965+00:00",
+        "context": {
+          "id": "01H1YHFY5MBMHBNQ7GYF5Z6TGC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.tz3000_qaaysllp_ts0201_illuminance",
+        "state": "7",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "lx",
+          "device_class": "illuminance",
+          "friendly_name": "_TZ3000_qaaysllp TS0201 Illuminance"
+        },
+        "last_changed": "2023-06-02T17:11:43.029863+00:00",
+        "last_updated": "2023-06-02T17:11:43.029863+00:00",
+        "context": {
+          "id": "01H1YHFY5N7WGBK83ZYRNYEH60",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.tz3000_qaaysllp_ts0201_temperature",
+        "state": "unknown",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "_TZ3000_qaaysllp TS0201 Temperature"
+        },
+        "last_changed": "2023-06-02T17:11:43.030801+00:00",
+        "last_updated": "2023-06-02T17:11:43.030801+00:00",
+        "context": {
+          "id": "01H1YHFY5PVTAY9WZW0TBX0MRM",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.tz3000_qaaysllp_ts0201_humidity",
+        "state": "unknown",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "humidity",
+          "friendly_name": "_TZ3000_qaaysllp TS0201 Humidity"
+        },
+        "last_changed": "2023-06-02T17:11:43.031295+00:00",
+        "last_updated": "2023-06-02T17:11:43.031295+00:00",
+        "context": {
+          "id": "01H1YHFY5Q1QPAYDNZ1SJMGKNR",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.lumi_lumi_remote_b1acn01_battery",
+        "state": "66",
+        "attributes": {
+          "state_class": "measurement",
+          "battery_size": "CR2032",
+          "battery_quantity": 1,
+          "battery_voltage": 3.01,
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "friendly_name": "Btn1 Battery"
+        },
+        "last_changed": "2023-06-02T17:11:43.032930+00:00",
+        "last_updated": "2023-06-02T17:11:43.032930+00:00",
+        "context": {
+          "id": "01H1YHFY5RYCWPXA2EWQ20Q2CK",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.automation_0",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2023-06-02T09:52:50.293520+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1685656953891",
+          "friendly_name": "automation 0"
+        },
+        "last_changed": "2023-06-02T17:11:43.041122+00:00",
+        "last_updated": "2023-06-02T17:11:43.041122+00:00",
+        "context": {
+          "id": "01H1YHFY61WHSHQWW1X0X5D426",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.scan_clients_nas",
+        "state": "2023-06-02T17:15:34.667126+00:00",
+        "attributes": {
+          "friendly_name": "Scan Clients (NAS)"
+        },
+        "last_changed": "2023-06-02T17:15:59.192789+00:00",
+        "last_updated": "2023-06-02T17:15:59.192789+00:00",
+        "context": {
+          "id": "01H1YHQRAR57GJ29DPGMZ5X7KE",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-02T17:41:43.676302+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.zigbee2mqtt_update",
+        "state": "unavailable",
+        "attributes": {
+          "friendly_name": "Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-06-01T22:10:46.439231+00:00",
+        "last_updated": "2023-06-01T22:10:46.439231+00:00",
+        "context": {
+          "id": "01H1WG6T17X26DAVW778G0P2WH",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-01T22:10:46.441059+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "scene.lights_on",
+        "state": "2023-06-01T22:03:27.267775+00:00",
+        "attributes": {
+          "entity_id": [
+            "sensor.lumi_lumi_remote_b1acn01_battery",
+            "light.signify_netherlands_b_v_ltv002_light"
+          ],
+          "id": "1685656921036",
+          "icon": "mdi:lightbulb-on",
+          "friendly_name": "Lights On"
+        },
+        "last_changed": "2023-06-01T22:03:27.267852+00:00",
+        "last_updated": "2023-06-01T22:03:27.267852+00:00",
+        "context": {
+          "id": "01H1WFSD53GJ9PQW7X1CJM0NF9",
+          "parent_id": null,
+          "user_id": "31c1061e99af44dfa79a0f6d7a93ac93"
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-06-01T22:03:29.312611+00:00"
+    }
+  ]
+}

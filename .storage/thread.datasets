@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "minor_version": 2,
+  "key": "thread.datasets",
+  "data": {
+    "datasets": [
+      {
+        "created": "2023-06-01T20:27:19.588029+00:00",
+        "id": "01H1WA9CN4G561S9JSTFDSH9NJ",
+        "source": "otbr",
+        "tlv": "0e080000000000010000000300000f35060004001fffe002082aae384679990b180708fde031e93812bd8305106a76bcca65559f8723a61c4e60b2d729030e686f6d652d617373697374616e740102c63e04102a9c9fcac04103d1bdecba7bfb3361890c0402a0f7f8"
+      }
+    ],
+    "preferred_dataset": "01H1WA9CN4G561S9JSTFDSH9NJ"
+  }
+}

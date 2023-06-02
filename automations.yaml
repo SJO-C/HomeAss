@@ -1,0 +1,15 @@
+- id: '1685656953891'
+  description: ''
+  trigger:
+  - device_id: 6486dc11c8452e840e7816c0717e7306
+    domain: zha
+    platform: device
+    type: remote_button_short_press
+    subtype: remote_button_short_press
+  condition: []
+  action:
+  - type: toggle
+    device_id: 6d5e835302d906994783c3bfb62af173
+    entity_id: light.signify_netherlands_b_v_ltv002_light
+    domain: light
+  mode: single

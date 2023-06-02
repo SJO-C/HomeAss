@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "1ebf8740aa25be64796022ec0bc46723",
+        "version": 1,
+        "domain": "hassio",
+        "title": "Supervisor",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "unique_id": "hassio",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "935fbd1012ece9c666e03b8613af7dcd",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "20622852e45c779c9504c2522942d9f8",
+        "version": 1,
+        "domain": "cast",
+        "title": "Google Cast",
+        "data": {
+          "ignore_cec": [],
+          "known_hosts": [],
+          "uuid": [],
+          "user_id": "867be2aeb1664ec8864ce92a2c24faae"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "cast",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "3c00eabd67fde0d49c263ebd100984cf",
+        "version": 1,
+        "domain": "thread",
+        "title": "Thread",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "434add743bb54361e4de898351bfd30f",
+        "version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "7b413ac4c154b63bc22ff998132b0404",
+        "version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "664d86b21b0ac8f0aa1f45f147afa96e",
+        "version": 1,
+        "domain": "dlna_dms",
+        "title": "TV Gateway (vbox_4068)",
+        "data": {
+          "url": "http://172.16.222.54:55555/DeviceDescription.xml",
+          "device_id": "uuid:b7531642-0123-3210-bbbb-00D072644068::urn:schemas-upnp-org:device:MediaServer:1",
+          "source_id": "tv_gateway_vbox_4068"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:b7531642-0123-3210-bbbb-00D072644068::urn:schemas-upnp-org:device:MediaServer:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "3890177184cbe93fbd33101b9b81ba7f",
+        "version": 3,
+        "domain": "zha",
+        "title": "SONOFF Zigbee 3.0 USB Dongle Plus V2",
+        "data": {
+          "device": {
+            "path": "/dev/serial/by-id/usb-ITEAD_SONOFF_Zigbee_3.0_USB_Dongle_Plus_V2_20230221150747-if00"
+          }
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "1A86:55D4_20230221150747_ITEAD_SONOFF Zigbee 3.0 USB Dongle Plus V2",
+        "disabled_by": "user"
+      },
+      {
+        "entry_id": "56ad2d4dbacb0d9fe89ba66d293579f2",
+        "version": 1,
+        "domain": "matter",
+        "title": "Matter",
+        "data": {
+          "url": "ws://core-matter-server:5580/ws",
+          "use_addon": true,
+          "integration_created_addon": false
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "hassio",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a13135badabdb01bc9a9cdb0c65875fa",
+        "version": 1,
+        "domain": "otbr",
+        "title": "Open Thread Border Router",
+        "data": {
+          "url": "http://core-silabs-multiprotocol:8081"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "hassio",
+        "unique_id": "3e4ab46695f24af3b52f2a59a5162f85",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ec77c3f366de7391bb88ce7325f0b077",
+        "version": 1,
+        "domain": "mqtt",
+        "title": "Mosquitto broker",
+        "data": {
+          "broker": "core-mosquitto",
+          "port": 1883,
+          "username": "homeassistant",
+          "password": "ceapieM5Sai7EoS9oaM8xiok1moh9ohRegeebaicuchoobeih8yithahrohBaiqu",
+          "discovery": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "hassio",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "574dd520556c03af71852dbcd24a1fa1",
+        "version": 3,
+        "domain": "zha",
+        "title": "Multiprotocol add-on - Nabu Casa",
+        "data": {
+          "device": {
+            "path": "socket://core-silabs-multiprotocol:9999",
+            "flow_control": "software",
+            "baudrate": 115200
+          },
+          "radio_type": "ezsp"
+        },
+        "options": {
+          "custom_configuration": {
+            "zha_options": {
+              "enhanced_light_transition": true,
+              "default_light_transition": 0,
+              "light_transitioning_flag": true,
+              "always_prefer_xy_color_mode": true,
+              "group_members_assume_state": true,
+              "enable_identify_on_join": true,
+              "consider_unavailable_mains": 7200,
+              "consider_unavailable_battery": 21600
+            }
+          }
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "4f5e01e24e44a2011c6c94fd964cf2ec",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "Pixel 6",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "beta-10008-d81913b7-full (10008)",
+          "device_name": "Pixel 6",
+          "manufacturer": "Google",
+          "model": "Pixel 6",
+          "os_name": "Android",
+          "os_version": "33",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "dMlsE6I3Q7C4DZO83WhMpX:APA91bEcG23i5QXi7UbKb-PgqhAz04w6KN7d_SmXDRidsYTSZbAHnqR5Hs2TXer8RJb1CUEmFX5WE1DAEwuZiNKk56g6nH_Ep23bazkrX6BkJP-u20DlbvliRTcKgsDa_vQYKC7A3Kde"
+          },
+          "device_id": "8278ac4e0b989436",
+          "webhook_id": "13db3e8c0b776392dd073098f27446fdd0297b46a9725238fe412ce94225231c",
+          "user_id": "31c1061e99af44dfa79a0f6d7a93ac93"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.homeassistant.companion.android-8278ac4e0b989436",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "346ee256dc0b80488bffd4e63cfaef7c",
+        "version": 1,
+        "domain": "plex",
+        "title": "https://178-79-172-216.be9cb45a76a24c00beba84e281d927c5.plex.direct:8443",
+        "data": {
+          "server": "NAS",
+          "server_id": "8e46d6c4912cd5f9715f05d7e1b9f8ca9d377860",
+          "server_config": {
+            "url": "https://178-79-172-216.be9cb45a76a24c00beba84e281d927c5.plex.direct:8443",
+            "client_id": "1df18f11-d449-4d60-afc5-f6fccb2070be",
+            "token": "e_JoobsAJW_E-yj8MEwA",
+            "verify_ssl": true
+          }
+        },
+        "options": {
+          "media_player": {
+            "use_episode_art": true,
+            "ignore_new_shared_users": false,
+            "ignore_plex_web_clients": false,
+            "monitored_users": {
+              "georgieor": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "8e46d6c4912cd5f9715f05d7e1b9f8ca9d377860",
+        "disabled_by": null
+      }
+    ]
+  }
+}

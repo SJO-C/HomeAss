@@ -1,0 +1,36 @@
+2023-06-02 18:09:41.820 WARNING (SyncWorker_3) [py.warnings] /usr/local/lib/python3.11/site-packages/urllib3/connectionpool.py:1056: InsecureRequestWarning: Unverified HTTPS request is being made to host '172.16.0.1'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  warnings.warn(
+
+2023-06-02 18:09:41.837 WARNING (SyncWorker_3) [py.warnings] /usr/local/lib/python3.11/site-packages/urllib3/connectionpool.py:1056: InsecureRequestWarning: Unverified HTTPS request is being made to host '172.16.0.1'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  warnings.warn(
+
+2023-06-02 18:09:41.939 ERROR (MainThread) [homeassistant.setup] Error during setup of component opnsense
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/setup.py", line 283, in _async_setup_component
+    result = await task
+             ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/opnsense/__init__.py", line 55, in setup
+    interfaces_client.get_arp()
+  File "/usr/local/lib/python3.11/site-packages/pyopnsense/diagnostics.py", line 52, in get_arp
+    return self._get('diagnostics/interface/getArp')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pyopnsense/client.py", line 54, in _get
+    return self._process_response(response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pyopnsense/client.py", line 44, in _process_response
+    return json.loads(response.text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-06-02 18:11:17.016 WARNING (MainThread) [homeassistant.core] Task <Task pending name='Task-1488' coro=<ServiceRegistry._execute_service() running at /usr/src/homeassistant/homeassistant/core.py:1950> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[set.remove(), Task.task_wakeup()]> was still running after stage 2 shutdown; Integrations should cancel non-critical tasks when receiving the stop event to prevent delaying shutdown
+2023-06-02 18:11:17.019 WARNING (MainThread) [homeassistant.core] Task <Task pending name='Task-1490' coro=<async_install() running at /usr/src/homeassistant/homeassistant/components/update/__init__.py:156> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[set.remove(), Task.task_wakeup()]> was still running after stage 2 shutdown; Integrations should cancel non-critical tasks when receiving the stop event to prevent delaying shutdown

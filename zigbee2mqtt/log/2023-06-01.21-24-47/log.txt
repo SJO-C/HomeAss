@@ -1,0 +1,18 @@
+debug 2023-06-01 21:24:47: Can't load state from file /config/zigbee2mqtt/state.json (doesn't exist)
+info  2023-06-01 21:24:47: Logging to console and directory: '/config/zigbee2mqtt/log/2023-06-01.21-24-47' filename: log.txt
+info  2023-06-01 21:24:47: Starting Zigbee2MQTT version 1.31.0 (commit #unknown)
+info  2023-06-01 21:24:47: Starting zigbee-herdsman (0.14.117)
+debug 2023-06-01 21:24:47: Using zigbee-herdsman with settings: '{"adapter":{"concurrent":null,"delay":null,"disableLED":false},"backupPath":"/config/zigbee2mqtt/coordinator_backup.json","databaseBackupPath":"/config/zigbee2mqtt/database.db.backup","databasePath":"/config/zigbee2mqtt/database.db","network":{"channelList":[11],"extendedPanID":[221,221,221,221,221,221,221,221],"networkKey":"HIDDEN","panID":6754},"serialPort":{"adapter":"ezsp","path":"tcp://core-silabs-multiprotocol:9999"}}'
+error 2023-06-01 21:25:08: Error while starting zigbee-herdsman
+error 2023-06-01 21:25:08: Failed to start zigbee
+error 2023-06-01 21:25:08: Check https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html for possible solutions
+error 2023-06-01 21:25:08: Exiting...
+error 2023-06-01 21:25:08: Error: Connection not initialized
+    at Ezsp.execCommand (/app/node_modules/zigbee-herdsman/src/adapter/ezsp/driver/ezsp.ts:551:19)
+    at Ezsp.version (/app/node_modules/zigbee-herdsman/src/adapter/ezsp/driver/ezsp.ts:349:35)
+    at Driver.startup (/app/node_modules/zigbee-herdsman/src/adapter/ezsp/driver/driver.ts:141:25)
+    at EZSPAdapter.start (/app/node_modules/zigbee-herdsman/src/adapter/ezsp/adapter/ezspAdapter.ts:165:16)
+    at Controller.start (/app/node_modules/zigbee-herdsman/src/controller/controller.ts:132:29)
+    at Zigbee.start (/app/lib/zigbee.ts:58:27)
+    at Controller.start (/app/lib/controller.ts:101:27)
+    at start (/app/index.js:107:5)
